@@ -42,7 +42,6 @@ def bfs(scrambled_cube):
             curr_copy.move(moves_abridged[i])
             fringe.append(curr_copy)
             edgeTo[curr_copy] = curr_state, moves_abridged[i]
-        print(len(expanded))
     return 
 
 # usage: python3 solver.py [scramble]
